@@ -1,7 +1,5 @@
 import threading
 import subprocess
-import shodan
-import waybackpy
 import customtkinter as ctk
 
 # Configure Dark Theme
