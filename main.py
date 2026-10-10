@@ -32,7 +32,7 @@ class SplashScreen(ctk.CTkToplevel):
         # Flashing Text Label
         self.splash_label = ctk.CTkLabel(
             self.frame, 
-            text="OSINT by Ahil", 
+            text="Sherlock-GUI by Ahil", 
             font=("Consolas", 32, "bold"),
             text_color="#000000"
         )
@@ -59,7 +59,7 @@ class OSINTApp(ctk.CTk):
     def __init__(self):
         super().__init__()
         
-        self.title("OSINT Toolkit - by Ahil")
+        self.title("Sherlock-GUI - by Ahil")
         self.geometry("750x700")
         self.resizable(True, True)
         
@@ -75,7 +75,7 @@ class OSINTApp(ctk.CTk):
         # Header Label
         self.header_label = ctk.CTkLabel(
             self, 
-            text="OSINT Investigation Suite", 
+            text="Sherlok-GUI", 
             font=("Consolas", 22, "bold")
         )
         self.header_label.pack(pady=(20, 10))
